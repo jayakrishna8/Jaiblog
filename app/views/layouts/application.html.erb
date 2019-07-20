@@ -13,11 +13,8 @@
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
 
-<<<<<<< HEAD
-   <% if current_user.is_a?(User) %>
-=======
+
     <% if current_user.is_a?(User) %>
->>>>>>> 12600be1f4540a902cd09420875c22c95c6a529a
       <%= link_to "Logout", destroy_user_session_path, method: :delete %>
     <% else %>
       <%= link_to "Register", new_user_registration_path %>
