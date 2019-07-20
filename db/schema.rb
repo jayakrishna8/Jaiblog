@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_07_19_114027) do
+ActiveRecord::Schema.define(version: 2019_07_20_062317) do
 
   create_table "blogs", force: :cascade do |t|
     t.string "title"
@@ -43,6 +43,8 @@ ActiveRecord::Schema.define(version: 2019_07_19_114027) do
     t.text "thumb_image"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "technology_id"
+    t.index ["technology_id"], name: "index_portfolios_on_technology_id"
   end
 
   create_table "skills", force: :cascade do |t|
@@ -51,6 +53,14 @@ ActiveRecord::Schema.define(version: 2019_07_19_114027) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.text "badge"
+  end
+
+  create_table "technologies", force: :cascade do |t|
+    t.string "name"
+    t.integer "portfolio_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["portfolio_id"], name: "index_technologies_on_portfolio_id"
   end
 
   create_table "topics", force: :cascade do |t|
