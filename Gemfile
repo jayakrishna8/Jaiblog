@@ -13,6 +13,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'friendly_id', '~> 5.2.4'
 gem 'devise'
+gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'jquery-rails'
 
 
 
