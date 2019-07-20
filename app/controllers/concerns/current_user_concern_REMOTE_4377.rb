@@ -12,8 +12,4 @@ module CurrentUserConcern
                   email: "guest@example.com"
                   )
   end
-<<<<<<< HEAD
-end 
-=======
 end
->>>>>>> 12600be1f4540a902cd09420875c22c95c6a529a
