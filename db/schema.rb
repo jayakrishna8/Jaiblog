@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_07_21_051715) do
+ActiveRecord::Schema.define(version: 2019_07_21_193423) do
 
   create_table "blogs", force: :cascade do |t|
     t.string "title"
@@ -44,6 +44,7 @@ ActiveRecord::Schema.define(version: 2019_07_21_051715) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "technology_id"
+    t.integer "position"
     t.index ["technology_id"], name: "index_portfolios_on_technology_id"
   end
 
