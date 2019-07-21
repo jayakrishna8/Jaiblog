@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/jaya999/jaya_view_tool
+  revision: a739db9f12c7948a2980ca8a3ca92bbbc1b7c7ab
+  specs:
+    jaya_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -124,6 +130,8 @@ GEM
     nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
+    petergate (2.0.1)
+      activerecord (> 4.0.0)
     popper_js (1.12.9)
     public_suffix (3.1.1)
     puma (3.12.1)
@@ -225,9 +233,11 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
   friendly_id (~> 5.2.4)
+  jaya_view_tool!
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
+  petergate
   puma (~> 3.11)
   rails (~> 5.2.3)
   sass-rails (~> 5.0)

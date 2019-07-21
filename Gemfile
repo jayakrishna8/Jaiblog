@@ -15,6 +15,9 @@ gem 'friendly_id', '~> 5.2.4'
 gem 'devise'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'jquery-rails'
+gem 'jaya_view_tool', git: 'https://github.com/jaya999/jaya_view_tool' 
+gem 'petergate'
+
 
 
 
