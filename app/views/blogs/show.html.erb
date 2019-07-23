@@ -1,11 +1,9 @@
 <div class="col-sm-8 blog-main">
 
   <h2><%= @blog.title %></h2>
-
-  <p>
-  	<%= @blog.topic.title %>
-  </p>
-
+  
+  <%= render 'blog_breadcrumb' %>
+  
   <%= link_to 'Edit', edit_blog_path(@blog) if logged_in?(:site_admin) %>
 
   <p>
