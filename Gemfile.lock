@@ -56,8 +56,8 @@ GEM
     autoprefixer-rails (9.6.1)
       execjs
     aws-eventstream (1.0.3)
-    aws-partitions (1.190.0)
-    aws-sdk-core (3.59.0)
+    aws-partitions (1.191.0)
+    aws-sdk-core (3.60.0)
       aws-eventstream (~> 1.0, >= 1.0.2)
       aws-partitions (~> 1.0)
       aws-sigv4 (~> 1.1)
@@ -200,8 +200,8 @@ GEM
     orm_adapter (0.5.0)
     petergate (2.0.1)
       activerecord (> 4.0.0)
-    pg (1.1.4)
-    popper_js (1.12.9)
+    pg (0.18.4)
+    popper_js (1.14.5)
     public_suffix (3.1.1)
     puma (3.12.1)
     rack (2.0.7)
@@ -231,7 +231,7 @@ GEM
       method_source
       rake (>= 0.8.7)
       thor (>= 0.19.0, < 2.0)
-    rake (12.3.2)
+    rake (12.3.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -269,7 +269,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.1)
     thor (0.20.3)
     thread_safe (0.3.6)
     tilt (2.0.9)
@@ -334,7 +333,7 @@ DEPENDENCIES
   listen (>= 3.0.5, < 3.2)
   mini_magick (~> 4.9, >= 4.9.5)
   petergate
-  pg
+  pg (~> 0.18.4)
   puma (~> 3.11)
   rails (~> 5.2.3)
   redcarpet (~> 3.4)
@@ -343,7 +342,6 @@ DEPENDENCIES
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
-  sqlite3
   turbolinks (~> 5)
   twitter (~> 6.2)
   tzinfo-data
