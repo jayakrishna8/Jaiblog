@@ -26,6 +26,7 @@ gem 'mini_magick', '~> 4.9', '>= 4.9.5'
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.4'
 gem 'cocoon', '~> 1.2', '>= 1.2.14'
 gem 'gritter', '~> 1.2'
+gem 'twitter', '~> 6.2'
 
 
 gem 'bootsnap', '>= 1.1.0', require: false
