@@ -11,5 +11,6 @@ module JaIBlog
   class Application < Rails::Application
     config.load_defaults 5.2
     config.eager_load_paths << "#{Rails.root}/lib"
+    config.secrect_key_base = ENV["SECRET_KEY_BASE"] 
   end
 end
