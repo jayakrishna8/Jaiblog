@@ -12,6 +12,5 @@ module JaIBlog
     config.load_defaults 5.2
     config.eager_load_paths << "#{Rails.root}/lib"
     config.secrect_key_base = ENV["SECRET_KEY_BASE"]
-    config.assets.initialize_on_precompile = false 
   end
 end
